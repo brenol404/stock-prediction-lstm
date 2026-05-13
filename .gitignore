@@ -1,0 +1,26 @@
+# Ignorar pastas de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar pastas de ambientes virtuais
+venv/
+env/
+.env
+
+# Arquivos de dados e logs
+*.csv
+*.log
+
+# Arquivos de Machine Learning e Modelos Salvos
+*.h5
+*.keras
+saved_model/
+.ipynb_checkpoints/
+
+# Sistema Operacional e IDEs
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
